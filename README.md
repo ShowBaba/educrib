@@ -3,7 +3,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Set port
-Create a .env file add:
+Create a .env file,
+add:
 ```
 PORT=8081
 ```
