@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const API_URL = "http://localhost:3000/api/v1/users/";
+const API_URL = "https://educrib1.herokuapp.com/api/v1/users/";
 
 exports.login = (username, password) => {
   return axios
@@ -9,6 +9,7 @@ exports.login = (username, password) => {
       password,
     })
     .then((response) => {
+      //save token to local storage
       localStorage.setItem("token", JSON.stringify(response.data.token));
     });
 };

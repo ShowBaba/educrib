@@ -84,6 +84,7 @@ export default class Login extends Component {
     render() {
         return (
             <div className="col-md-12">
+            <h2 className= "font-bold text-center">Login</h2>
                 <div className="card card-container">
                     <img
                         src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
@@ -97,7 +98,7 @@ export default class Login extends Component {
                             this.form = c;
                         }}
                     >
-                        <div className="form-group">
+                        <div className="form-group ">
                             <label htmlFor="username">Username</label>
                             <Input
                                 type="text"

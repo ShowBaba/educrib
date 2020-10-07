@@ -141,6 +141,7 @@ export default class Register extends Component {
     render() {
         return (
             <div className="col-md-12">
+            <h2 className= "font-bold text-center">Sign Up</h2>
                 <div className="card card-container">
                     <img
                         src="//ssl.gstatic.com/accounts/ui/avatar_2x.png"
